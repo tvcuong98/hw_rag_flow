@@ -1,0 +1,7 @@
+pdf_data/*.pdf
+json_output/*.json
+json_output_sub/
+qdrant_storage/
+.env
+Neo4j-a*
+*.drawio

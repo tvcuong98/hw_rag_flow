@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+neo4j
+qdrant-client
+openai  # AzureOpenAI client is in openai package or the azure-openai sdk you use
+tqdm
+uuid 
+PyMuPDF
