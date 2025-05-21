@@ -1,6 +1,6 @@
 # Legal Knowledge Graph API
 
-This project provides an API that allows querying a legal knowledge graph built using **Neo4j** and **Qdrant**. It leverages **Azure OpenAI** to generate legal answers based on the context from the knowledge graph.
+This homework project provides an API that allows querying a legal knowledge graph built using **Neo4j** and **Qdrant**. It leverages **Azure OpenAI** to generate legal answers based on the context from the knowledge graph.
 
 ---
 
@@ -91,6 +91,9 @@ This project follows a modular structure to maintain clarity and separation of c
 4. **Q&A Python script**
     ```bash
     python 4_qa_script.py
+
+    Then type in the questions
+    If you ask irrelevant questions (not related to laws), it will refuse to answer
     ```
 5. **Run the FastAPI App**
     ```bash
